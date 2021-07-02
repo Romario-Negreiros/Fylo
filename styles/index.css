@@ -188,6 +188,56 @@ body {
 .d-howWorks__content a:hover .white {
     display: inline-block;
 }
+.e-testimonials {
+    padding: 70px 20px;
+    background: var(--mainBack) url('./images/bg-quotes.png') no-repeat;
+    background-position: 30px 30px;
+}
+.e-testimonials__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.e-testimonials__list li {
+    background-color: var(--testimonialBack); 
+    border-radius: 5px;
+    font-family: var(--bodyFont);
+    padding: 20px;
+    transition: .3s;
+}
+.e-testimonials__list li:hover {
+    box-shadow: 2px 2px 20px 2px inset silver,
+    -2px -2px 20px 2px inset silver;
+    transform: scale(1.1);
+}
+.e-testimonials__list li > p {
+    font-size: 16px;
+    line-height: 25px;
+}
+.to-top {
+    margin-top: 25px;
+}
+.e-testimonials__list li img {
+    border-radius: 50%;
+    width: 40px;
+}
+.e-testimonials__person {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    margin-top: 20px;
+}
+.e-testimonials__person div {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.e-testimonials__person h4 {
+    font-size: 18px;
+}
+.e-testimonials__person p {
+    font-size: 14px;
+}
 @media (min-width: 375px) {
     .a-header {
         flex-direction: row;
@@ -238,7 +288,7 @@ body {
         padding-top: 45px;
         font-size: 32px;
     }
-    .c-features {
+    .c-features, .e-testimonials {
         margin-top: -20px;
     }
     .d-howWorks {
@@ -275,10 +325,39 @@ body {
     .c-features__list li h2 {
         font-size: 24px;
     }
-    .d-howWorks__list li p, .c-features__list li p {
+    .d-howWorks__list li p, .c-features__list li p,
+    .e-testimonials__list li > p, .d-howWorks__list li a{
         font-size: 18px;
     }
-    .d-howWorks__list li a {
-        font-size: 18px;
+    .e-testimonials {
+        padding: 20px 60px;
+        background-position: 50px 135px;
+    }
+    .e-testimonials__list {
+        margin-top: 150px;
+    }
+    .e-testimonials__list li {
+        padding: 40px;
+    }
+    .e-testimonials__person div {
+        margin: 0;
+    }
+    .e-testimonials__person h4 {
+        font-size: 20px;
+    }
+    .e-testimonials__person p {
+        font-size: 16px;
+    }
+    .e-testimonials__person {
+        gap: 20px;
+    }
+}
+@media (min-width: 1000px) {
+    .e-testimonials__list {
+        flex-direction: row;
+        gap: 30px;
+    }
+    .to-top {
+        margin: 0;
     }
 }
