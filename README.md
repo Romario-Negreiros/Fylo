@@ -17,14 +17,14 @@ Your users should be able to:
 ![](./readme-images/desktop.png)
 
 * Mobile
-Top
-![](./readme-images/mob-top)
+* Top
+![](./readme-images/mob-top.png)
 
-Mid
-![](./readme-images/mob-mid)
+* Mid
+![](./readme-images/mob-mid.png)
 
-Bottom
-![](./readme-images/mob-bottom)
+* Bottom
+![](./readme-images/mob-bottom.png)
 
 ### Links
 
