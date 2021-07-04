@@ -229,7 +229,7 @@ body {
     margin-top: 10px;
     margin-left: 15px;
 }
-.e-testimonials__person h4 {
+.e-testimonials__person h3 {
     font-size: 18px;
 }
 .e-testimonials__person p {
@@ -501,7 +501,7 @@ body {
     .e-testimonials__person div {
         margin: 0;
     }
-    .e-testimonials__person h4 {
+    .e-testimonials__person h3 {
         font-size: 20px;
     }
     .e-testimonials__person p {
