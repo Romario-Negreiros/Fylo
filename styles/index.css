@@ -262,6 +262,7 @@ body {
 .f-acess__input {
     text-align: center;
     margin-top: 30px;
+    padding: 0 25px;
 }
 .f-acess__input input {
     width: 100%;
@@ -273,12 +274,18 @@ body {
     color: var(--introAndEmailSignUpBack);
 }  
 .f-acess__input input::placeholder {
-    color: rgba(128, 128, 128, 0.582);
+    color: gray;
     font-family: var(--bodyFont);
 }
 .f-acess__input input:focus {
     outline: 0;
     caret-color: var(--blue);
+}
+.emailWarning {
+    font-family: var(--bodyFont);
+    position: absolute;
+    bottom: 1px; left: 1px;
+    font-size: 14px;
 }
 .f-acess__input button {
     width: 100%;
@@ -373,6 +380,14 @@ body {
 .medias-circle:hover .cyan-icon {
     display: block;
 }
+@media (max-width: 300px) {
+    .f-acess__input input::placeholder {
+        color: var(--white);
+    }
+    .g-footer {
+        padding-top: 300px;
+    }
+}
 @media (min-width: 375px) {
     .a-header {
         flex-direction: row;
@@ -428,6 +443,9 @@ body {
     }
     .d-howWorks, .f-acess, .g-footer {
         margin-top: -5px;
+    }
+    .emailWarning {
+        font-size: 16px;
     }
 }
 @media (min-width: 800px) {
@@ -508,6 +526,7 @@ body {
     }
     .f-acess ul {
         top: calc(100% - 55%);
+        padding-bottom: 60px;
     }
     .f-acess__text {
         padding: 0 20px;
@@ -521,12 +540,16 @@ body {
     .f-acess__input input {
         flex-basis: 53%;
     }
+    .emailWarning {
+        left: 13%;
+        bottom: 40px;
+    }
     .f-acess__input button {
         flex-basis: 42%;
         margin: 0;
     }
     .g-footer {
-        padding: 250px 40px 100px;
+        padding: 270px 40px 100px;
     }
     .g-footer__list {
         flex-direction: row;
