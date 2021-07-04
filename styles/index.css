@@ -74,13 +74,16 @@ body {
     flex-direction: column-reverse;
     align-items: center;
 }
-.background img:nth-child(1) {
+.background img:nth-child(2) {
     margin-top: -9%;
     width: 100%;
 }
-.background img:nth-child(2) {
+.background img:nth-child(3) {
     width: 100%;
     padding: 0 35px;
+}
+.back-title {
+    display: none;
 }
 .b-intro__title {
     padding: 0 15px;
@@ -410,10 +413,10 @@ body {
     .a-header__navList li a {
         font-size: 18px;
     }
-    .background img:nth-child(1) {
+    .background img:nth-child(2) {
         display: none;
     }
-    .background img:nth-child(2) {
+    .background img:nth-child(3) {
         width: 50%;
     }
     .b-intro {
