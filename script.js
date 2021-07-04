@@ -26,3 +26,10 @@ button.addEventListener('click', () => {
     const value = input.value
     value.match(/[@]{1}[a-z]*[.]{1}/) !== null ? emailIs.valid() : emailIs.invalid()  
 })
+
+/* Script for preventing any action on a tags if you press it */
+const links = [...document.querySelectorAll('a')]
+
+links.forEach(a => {
+    a.addEventListener('click', e => e.preventDefault())
+})
