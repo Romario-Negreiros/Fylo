@@ -555,7 +555,7 @@ body {
         flex-direction: row;
         position: relative;
     }
-    .g-footer__list > img {
+    .g-footer__list li:nth-child(1) {
         position: absolute;
         top: -80px;
     }
