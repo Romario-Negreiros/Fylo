@@ -49,6 +49,6 @@ This project really showed how mobile-first workflow is better, and made me choo
 
 ## Author
 
-- Website - [Romario Negreiros](https://meu-portfolio-izui59udw-romario-negreiros.vercel.app)
+- Website - [Romario Negreiros](https://romario-negreiros.github.io/Romario-frontend/)
 - Frontend Mentor - [@Romario-Negreiros](https://www.frontendmentor.io/profile/Romario-Negreiros)
 - Github profile - [Romario-Negreiros](https://github.com/Romario-Negreiros)
